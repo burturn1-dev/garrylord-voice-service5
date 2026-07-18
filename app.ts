@@ -1,7 +1,7 @@
 import * as express from 'express'
 import * as bodyParser from 'body-parser'
 
-const app = express()
+import * as e from 'express';
 
 const port = process.env.PORT ? parseInt(process.env.PORT) : 3000
 
